@@ -17,7 +17,7 @@ const Home = () => {
                 <section className="py-5">
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
-                            <div>
+                            <div className='order-2 md:order-1'>
                                 <h1 className="text-4xl font-bold text-black sm:text-6xl lg:text-7xl">
                                     Your Journey <span className="text-end text-main">Begins</span>
                                 </h1>
@@ -37,7 +37,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <div>
+                            <div className='order-1 md:order-2'>
                                 <img className="w-full" src={hero} alt="" />
                             </div>
                         </div>
